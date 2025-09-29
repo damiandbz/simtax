@@ -1,9 +1,9 @@
 {
-    "name": "Hello PWA",
-    "short_name": "PWA",
-    "start_url": "index.htm",
+    "name": "SIM TAX",
+    "short_name": "SIMTAX",
+    "start_url": "./",
     "display": "standalone",
-    "background_color": "#ffffff",
+    "background_color": "#000000",
     "theme_color": "#000000",
     "icons": [
         {
@@ -17,4 +17,5 @@
             "type": "image/png"
                 }
     ]
+
 }
