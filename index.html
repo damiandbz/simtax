@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset ="UTF-8"  />
+    <meta name = "viewport" content ="width=device-width, initial-scale=1.0"    />
+    <tittle> SIM TAX</tittle>
+    <link rel = "stylesheet" href="style.css"   />
+    <link rel = "manifest" href="manifest.json" />
+    <link rel = "apple-touch-icon" href = "apple-touch-icon.png"    />
+    <meta name = "theme-color" content= "#000000"/>
+    
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Company Logo" class="logo" />
+        <h1 class="construction">Site Under Construction</h1>
+        <div class="loader">
+            <div class="bar"></div>
+        </div>
+    </div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js');
+        }
+    </script>
+</body>
+</html>

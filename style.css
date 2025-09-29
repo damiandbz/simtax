@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .container {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .construction {
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'Segoe UI', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .loader {
+    width: 300px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  
+  .bar {
+    height: 100%;
+    width: 0%;
+    background-color: #00ffcc;
+    animation: loading 5s infinite;
+  }
+  
+  @keyframes loading {
+    0% { width: 0%; }
+    50% { width: 100%; }
+    100% { width: 0%; }
+  }
